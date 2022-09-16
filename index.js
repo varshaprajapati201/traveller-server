@@ -1,4 +1,4 @@
-fconst express = require("express");
+const express = require("express");
 const { Connection } = require("./database/db.js");
 const dotenv = require("dotenv");
 const UserRouter = require("./routes/user-route.js"); 
